@@ -27,19 +27,6 @@
 	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins" revision="buildroot-openlinuxgst0"/>
 	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins1" revision="buildroot-openlinuxgst1"/>
 
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-aarch64-linux-gnu-4.9-2014.09_linux" path="toolchain/gcc/linux-x86/aarch64/gcc-linaro-aarch64-linux-gnu-4.9" />
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_arm_gcc-linaro-arm-linux-gnueabihf-4.9-2014.05_linux" path="toolchain/gcc/linux-x86/arm/gcc-linaro-arm-linux-gnueabihf-4.9" />
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_arc_arc-4.8.5" path="toolchain/gcc/linux-x86/arc/arc-4.8.5" />
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_arm_Sourcery_Gplusplus_Lite-2010q1" path="toolchain/gcc/linux-x86/arm/Sourcery_G++_Lite-2010q1" />
-buildroot_platform_prebuilts_gcc_linux-x86_arm_Sourcery_G-_Lite-2010q1
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu" path="toolchain/gcc/linux-x86/aarch64/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu" />
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu" path="toolchain/gcc/linux-x86/aarch64/gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu" />
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf" path="toolchain/gcc/linux-x86/arm/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf" />
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.02-x86_64_aarch64-linux-gnu" path="toolchain/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.02-x86_64_aarch64-linux-gnu" />
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf" path="toolchain/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf" />
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="toolchain/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" />
-	<project name="buildroot_platform_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="toolchain/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" />
-
 	<project name="buildroot_platform_hardware_amlogic_media_modules" path="hardware/aml-4.9/amlogic/media_modules" />
 	<project name="buildroot_platform_hardware_amlogic_nand" path="hardware/aml-3.14/amlogic/nand" />
 	<project name="buildroot_platform_hardware_arm_gpu" path="hardware/aml-4.9/arm/gpu" revision="7ee9d980b03d696e08a6788a8775f4853d0b64fc" />
