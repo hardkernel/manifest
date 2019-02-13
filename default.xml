@@ -28,12 +28,7 @@
 	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins1" revision="buildroot-openlinuxgst1"/>
 
 	<project name="buildroot_platform_hardware_amlogic_media_modules" path="hardware/aml-4.9/amlogic/media_modules" />
-	<project name="buildroot_platform_hardware_amlogic_nand" path="hardware/aml-3.14/amlogic/nand" />
 	<project name="buildroot_platform_hardware_arm_gpu" path="hardware/aml-4.9/arm/gpu" revision="7ee9d980b03d696e08a6788a8775f4853d0b64fc" />
-	<project name="buildroot_platform_hardware_arm_gpu" path="hardware/aml-3.14/arm/gpu" revision="7ee9d980b03d696e08a6788a8775f4853d0b64fc" />
-	<project name="buildroot_platform_hardware_amlogic_pmu" path="hardware/aml-3.14/amlogic/pmu" />
-	<project name="buildroot_platform_hardware_amlogic_thermal" path="hardware/aml-3.14/amlogic/thermal" />
-	<project name="buildroot_platform_hardware_amlogic_touch" path="hardware/aml-3.14/amlogic/touch" />
 
 	<project name="buildroot_platform_hardware_amlogic_wifi" path="hardware/aml-4.9/amlogic/wifi" />
 	<project name="buildroot_platform_hardware_wifi_broadcom_drivers_ap6xxx" path="hardware/aml-4.9/wifi/broadcom/drivers/ap6xxx" />
@@ -46,26 +41,6 @@
 	<project name="buildroot_platform_hardware_realtek_bluetooth" path="hardware/aml-4.9/realtek/bluetooth" />
 	<project name="buildroot_platform_hardware_wifi_marvell_drivers_sd8977" path="hardware/aml-4.9/wifi/marvell/drivers/sd8977" />
 	<project name="buildroot_platform_hardware_wifi_marvell_drivers_sd8987" path="hardware/aml-4.9/wifi/marvell/drivers/sd8987" />
-
-	<project name="buildroot_platform_hardware_amlogic_wifi" path="hardware/aml-3.14/amlogic/wifi" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8188eu" path="hardware/aml-3.14/wifi/realtek/drivers/8188eu" />
-	<project name="buildroot_platform_hardware_wifi_mtk_drivers_mt7601" path="hardware/aml-3.14/wifi/mtk/drivers/mt7601" />
-	<project name="buildroot_platform_hardware_wifi_mtk_drivers_mt7603" path="hardware/aml-3.14/wifi/mtk/drivers/mt7603" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8188ftv" path="hardware/aml-3.14/wifi/realtek/drivers/8188ftv" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8192cu" path="hardware/aml-3.14/wifi/realtek/drivers/8192cu" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8192du" path="hardware/aml-3.14/wifi/realtek/drivers/8192du" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8192eu" path="hardware/aml-3.14/wifi/realtek/drivers/8192eu" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8192es" path="hardware/aml-3.14/wifi/realtek/drivers/8192es" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8189es" path="hardware/aml-3.14/wifi/realtek/drivers/8189es" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8189ftv" path="hardware/aml-3.14/wifi/realtek/drivers/8189ftv" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8723bs" path="hardware/aml-3.14/wifi/realtek/drivers/8723bs" revision="c3eef6c8f95b80a9d8c92537c2f9e5f3bfb393ee" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8723au" path="hardware/aml-3.14/wifi/realtek/drivers/8723au" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8811au" path="hardware/aml-3.14/wifi/realtek/drivers/8811au" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8812au" path="hardware/aml-3.14/wifi/realtek/drivers/8812au" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8723bu" path="hardware/aml-3.14/wifi/realtek/drivers/8723bu" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8822bu" path="hardware/aml-3.14/wifi/realtek/drivers/8822bu" />
-	<project name="buildroot_platform_hardware_wifi_broadcom_drivers_ap6xxx" path="hardware/aml-3.14/wifi/broadcom/drivers/ap6xxx" />
-	<project name="buildroot_platform_hardware_wifi_broadcom_drivers_usi" path="hardware/aml-3.14/wifi/broadcom/drivers/usi" />
 
 	<!-- add projects -->
 	<project name="u-boot" path="bootloader/uboot" revision="refs/heads/odroidn2-v2015.01"/>
