@@ -4,7 +4,6 @@
 	<default revision="refs/heads/aml64_buildroot_master" remote="origin" sync-j="4"/>
 
 	<project name="linux" path="kernel/aml-4.9" revision="refs/heads/odroidn2-4.9.y"/>
-	<project name="buildroot_linux_amlogic_chromium" path="vendor/amlogic/chromium"/>
 	<project name="buildroot_vendor_amlogic_external_platinum" path="vendor/amlogic/external/platinum"/>
 	<project name="buildroot_vendor_amlogic_dvb" path="vendor/amlogic/dvb"/>
 	<project name="buildroot_amlogic_tools_system_control" path="vendor/amlogic/system_control"/>
