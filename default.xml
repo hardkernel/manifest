@@ -3,7 +3,9 @@
 	<remote name="origin" fetch="../.."/>
 	<default revision="refs/heads/aml64_buildroot_master" remote="origin" sync-j="4"/>
 
-	<project name="linux" path="kernel/aml-4.9" revision="refs/heads/odroidn2-4.9.y"/>
+	<project name="linux" path="kernel/aml-4.9" revision="refs/heads/odroidn2-4.9.y-drm"/>
+	<project name="buildroot_linux_amlogic_chromium" path="vendor/amlogic/chromium"/>
+	<project name="buildroot_vendor_amlogic_audioservice" path="vendor/amlogic/audioservice"/>
 	<project name="buildroot_vendor_amlogic_external_platinum" path="vendor/amlogic/external/platinum"/>
 	<project name="buildroot_vendor_amlogic_dvb" path="vendor/amlogic/dvb"/>
 	<project name="buildroot_amlogic_tools_system_control" path="vendor/amlogic/system_control"/>
@@ -24,11 +26,13 @@
 	<project name="buildroot_linux_multimedia" path="multimedia" />
 	<project name="buildroot_avs_avs_client" path="multimedia/avs" />
 	<project name="buildroot_platform_packages_amlogic_LibPlayer" path="multimedia/libplayer/src" />
-	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins" revision="buildroot-openlinuxgst0"/>
-	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins1" revision="buildroot-openlinuxgst1"/>
+	<project name="buildroot_linux_multimedia_aml_halaudio" path="multimedia/aml_halaudio"/>
+	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins" revision="buildroot-openlinux-gst0-g12b-201904"/>
+	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins1" revision="buildroot-openlinux-gst1-g12b-201904"/>
+	<project name="buildroot_vendor_amlogic_prebuilt_libmediadrm" path="multimedia/libmediadrm"/>
 
 	<project name="buildroot_platform_hardware_amlogic_media_modules" path="hardware/aml-4.9/amlogic/media_modules" />
-	<project name="buildroot_platform_hardware_arm_gpu" path="hardware/aml-4.9/arm/gpu" revision="7ee9d980b03d696e08a6788a8775f4853d0b64fc" />
+	<project name="buildroot_platform_hardware_arm_gpu" path="hardware/aml-4.9/arm/gpu" />
 
 	<project name="buildroot_platform_hardware_amlogic_wifi" path="hardware/aml-4.9/amlogic/wifi" />
 	<project name="buildroot_platform_hardware_wifi_broadcom_drivers_ap6xxx" path="hardware/aml-4.9/wifi/broadcom/drivers/ap6xxx" />
