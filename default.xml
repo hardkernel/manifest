@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="origin" fetch="../.."/>
-	<default revision="refs/heads/aml64_buildroot_master" remote="origin" sync-j="4"/>
+	<default revision="refs/heads/aml64_buildroot_master_c4" remote="origin" sync-j="4"/>
 
-	<project name="linux" path="kernel/aml-4.9" revision="refs/heads/odroidn2-4.9.y-drm"/>
-	<project name="buildroot_linux_amlogic_chromium" path="vendor/amlogic/chromium"/>
-	<project name="buildroot_vendor_amlogic_audioservice" path="vendor/amlogic/audioservice"/>
+	<project name="linux" path="kernel/aml-4.9" revision="refs/heads/odroidc4-4.9.y"/>
 	<project name="buildroot_vendor_amlogic_external_platinum" path="vendor/amlogic/external/platinum"/>
 	<project name="buildroot_vendor_amlogic_dvb" path="vendor/amlogic/dvb"/>
 	<project name="buildroot_amlogic_tools_system_control" path="vendor/amlogic/system_control"/>
 	<project name="buildroot_linux_amlogic_meson_mali" path="vendor/amlogic/meson_mali"/>
-	<project name="buildroot_linux_amlogic_minigbm" path="vendor/amlogic/minigbm"/>
 	<project name="buildroot_linux_amlogic_libdrm_amlogic" path="vendor/amlogic/libdrm_amlogic"/>
-	<project name="buildroot_linux_amlogic_companion_apps" path="vendor/amlogic/companion_apps"/>
-	<project name="buildroot_vendor_amlogic_ledring" path="vendor/amlogic/ledring"/>
 	<project name="buildroot_linux_amlogic_ir_tools" path="vendor/amlogic/remotecfg" />
-	<project name="buildroot_linux_amlogic_test_tools" path="vendor/amlogic/test_tools"/>
 	<project name="buildroot_linux_amlogic_brcm-bsa" path="vendor/broadcom/brcm-bsa"/>
 	<project name="buildroot_vendor_marvell_bt_sd8977" path="vendor/marvell/bt/sd8977" />
 	<project name="buildroot_vendor_marvell_bt_sd8987" path="vendor/marvell/bt/sd8987" />
-	<project name="buildroot_linux_amlogic_tvin" path="hardware/tvin" />
+	<project name="buildroot_vendor_amlogic_aml_commonlib" path="vendor/amlogic/aml_commonlib"/>
 	<project name="buildroot_linux_buildroot" path="buildroot">
 		<copyfile dest="Makefile" src="build/Makefile"/>
 	</project>
 	<project name="buildroot_linux_multimedia" path="multimedia" />
-	<project name="buildroot_avs_avs_client" path="multimedia/avs" />
 	<project name="buildroot_platform_packages_amlogic_LibPlayer" path="multimedia/libplayer/src" />
 	<project name="buildroot_linux_multimedia_aml_halaudio" path="multimedia/aml_halaudio"/>
-	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins" revision="buildroot-openlinux-gst0-g12b-201904"/>
-	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins1" revision="buildroot-openlinux-gst1-g12b-201904"/>
+	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins"
+			revision="refs/heads/buildroot-openlinux-gst0-sm1-201911"/>
+	<project name="buildroot_linux_multimedia_gstreamer_plugin" path="multimedia/gst-aml-plugins1"
+			revision="refs/heads/buildroot-openlinux-gst1-sm1-201911"/>
 	<project name="buildroot_vendor_amlogic_prebuilt_libmediadrm" path="multimedia/libmediadrm"/>
 
 	<project name="buildroot_platform_hardware_amlogic_media_modules" path="hardware/aml-4.9/amlogic/media_modules" />
@@ -41,11 +36,11 @@
 	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8189ftv" path="hardware/aml-4.9/wifi/realtek/drivers/8189ftv" />
 	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8822bu" path="hardware/aml-4.9/wifi/realtek/drivers/8822bu" />
 	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8723ds" path="hardware/aml-4.9/wifi/realtek/drivers/8723ds" />
-	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8723bs" path="hardware/aml-4.9/wifi/realtek/drivers/8723bs" revision="ee9d86a7946ac299fcaa6abab7bccaa34fba1609" />
+	<project name="buildroot_platform_hardware_wifi_realtek_drivers_8723bs" path="hardware/aml-4.9/wifi/realtek/drivers/8723bs" />
 	<project name="buildroot_platform_hardware_realtek_bluetooth" path="hardware/aml-4.9/realtek/bluetooth" />
 	<project name="buildroot_platform_hardware_wifi_marvell_drivers_sd8977" path="hardware/aml-4.9/wifi/marvell/drivers/sd8977" />
 	<project name="buildroot_platform_hardware_wifi_marvell_drivers_sd8987" path="hardware/aml-4.9/wifi/marvell/drivers/sd8987" />
 
 	<!-- add projects -->
-	<project name="u-boot" path="bootloader/uboot" revision="refs/heads/odroidn2-v2015.01"/>
+	<project name="u-boot" path="bootloader/uboot" revision="refs/heads/odroidg12-v2015.01"/>
 </manifest>
