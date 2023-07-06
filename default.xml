@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="origin" fetch="../../hardkernel"/>
-	<default revision="refs/heads/aml64_buildroot_master_c4" remote="origin" sync-j="4"/>
+	<default revision="refs/heads/aml64_buildroot_master" remote="origin" sync-j="4"/>
 
 	<project name="linux" path="kernel/aml-4.9" revision="refs/heads/odroidg12-4.9.y"/>
 	<project name="buildroot_vendor_amlogic_external_platinum" path="vendor/amlogic/external/platinum"/>
